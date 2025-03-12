@@ -1,1 +1,71 @@
-// .
+@font-face {
+	font-family: Phetsarath;
+	font-weight: 700;
+	font-style: normal;
+	src: url('@shared/assets/fonts/Phetsarath-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Phetsarath;
+	font-weight: 400;
+	font-style: normal;
+	src: url('@shared/assets/fonts/Phetsarath-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: PTSans;
+	font-weight: 700;
+	font-style: normal;
+	src: url('@shared/assets/fonts/PTSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: PTSans;
+	font-weight: 400;
+	font-style: normal;
+	src: url('@shared/assets/fonts/PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: PTSansCaption;
+	font-weight: 700;
+	font-style: normal;
+	src: url('@shared/assets/fonts/PTSansCaption-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: PTSansCaption;
+	font-weight: 400;
+	font-style: normal;
+	src: url('@shared/assets/fonts/PTSansCaption-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: ZillaSlab;
+	font-weight: 700;
+	font-style: normal;
+	src: url('@shared/assets/fonts/ZillaSlab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: ZillaSlab;
+	font-weight: 400;
+	font-style: normal;
+	src: url('@shared/assets/fonts/ZillaSlab-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: ZillaSlabHighlight;
+	font-weight: 700;
+	font-style: normal;
+	src: url('@shared/assets/fonts/ZillaSlabHighlight-Bold.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: ZillaSlabHighlight;
+	font-weight: 400;
+	font-style: normal;
+	src: url('@shared/assets/fonts/ZillaSlabHighlight-Regular.ttf')
+		format('truetype');
+}

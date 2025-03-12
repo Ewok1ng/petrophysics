@@ -1,6 +1,7 @@
 html {
 	scroll-behavior: smooth;
 	box-sizing: border-box;
+	font-size: calc(1vw / 16); // 100vw / 1600px
 }
 
 html,
@@ -12,15 +13,8 @@ body {
 *::before,
 *::after {
 	box-sizing: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
 	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -32,12 +26,13 @@ img {
 
 body {
 	position: relative;
+
 	overflow-x: hidden;
+
 	min-width: 320px;
 
-	// font-family: Arial, sans-serif;
-	// font-weight: 400;
-	// color: $primary-color;
+	font-family: $pt-sans-caption-font;
+	font-weight: 400;
 
-	// background: $primary-background;
+	background: $white-color;
 }

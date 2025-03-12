@@ -1,0 +1,87 @@
+.section {
+	position: relative;
+
+	&::after {
+		content: '';
+
+		position: absolute;
+		top: 50%;
+		left: 472rem;
+		transform: translateY(-50%);
+
+		width: 2400rem;
+		height: 2400rem;
+
+		background: url('../../shared/assets/images/shape-3.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	&__top {
+		background: $black-color;
+	}
+
+	&__bottom {
+		background: $white-color;
+	}
+}
+
+.wrapper {
+	background: $gray-color-1;
+
+	&--top {
+		padding-top: 64rem;
+		padding-bottom: 100rem;
+		border-top-left-radius: 136rem;
+		border-top-right-radius: 136rem;
+	}
+
+	&--bottom {
+		padding-top: 100rem;
+		padding-bottom: 64rem;
+		border-bottom-right-radius: 136rem;
+		border-bottom-left-radius: 136rem;
+	}
+}
+
+.title {
+	position: relative;
+	z-index: 10;
+	font-family: $pt-sans-caption-font;
+
+	&__inner {
+		font-size: 180rem;
+		font-weight: 700;
+		line-height: 1;
+		color: transparent;
+		text-shadow: 60px 0 25px rgba(#000, 0.25);
+
+		-webkit-text-stroke: $accent-color 4rem;
+	}
+}
+
+.subtitle {
+	position: relative;
+	z-index: 10;
+	font-family: $pt-sans-caption-font;
+
+	&__inner {
+		font-size: 170rem;
+		font-weight: 700;
+		line-height: 1;
+		color: transparent;
+		text-shadow: 60px 0 25px rgba(#000, 0.25);
+
+		-webkit-text-stroke: $white-color 2rem;
+	}
+}
+
+.content {
+	position: relative;
+	z-index: 5;
+
+	display: flex;
+	flex-direction: column;
+	gap: 70rem;
+}

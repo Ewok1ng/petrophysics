@@ -1,5 +1,30 @@
 // colors
+$black-color: #000;
+$black-20-color: rgb(0 0 0 / 20%);
+$white-color: #fff;
+$white-5-color: rgb(255 255 255 / 5%);
+$white-15-color: rgb(255 255 255 / 15%);
+$white-30-color: rgb(255 255 255 / 30%);
+$white-70-color: rgb(255 255 255 / 70%);
+$gray-color-1: #d4d4d4;
+$gray-color-2: #a8a8a8;
+$gray-color-3: #d9d9d9;
+$red-color: #f00;
+$green-color: #00fa9c;
+$accent-color: #00c7d4;
 
-// background
+// backgrounds:
+$accent-gradient: linear-gradient(270deg, #00c7d4 0%, #02e7bd 100%);
 
 // shadows
+$header-shadow: 10rem 10rem 0 0 #000;
+$black-box-shadow: 20rem 20rem 0 0 #000;
+$black-text-shadow: 15rem 15rem 4rem 0 #000;
+$accent-text-shadow: 10rem 10rem 0 0 #00d0cd;
+
+// fonts
+$phetsarath-font: 'Phetsarath', serif;
+$pt-sans-font: 'PTSans', serif;
+$pt-sans-caption-font: 'PTSansCaption', sans-serif;
+$zilla-slab-font: 'ZillaSlab', serif;
+$zilla-slab-hightlight-font: 'ZillaSlabHighlight', serif;

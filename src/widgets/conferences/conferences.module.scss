@@ -1,0 +1,53 @@
+.conferences {
+	padding: 35rem 0;
+	background: $black-color;
+	border-top-left-radius: 136rem;
+	border-top-right-radius: 136rem;
+}
+
+.title {
+	margin-bottom: 40rem;
+
+	font-family: $pt-sans-caption-font;
+	font-size: 80rem;
+	font-weight: 700;
+	line-height: 100%;
+	color: $white-color;
+	text-align: right;
+}
+
+.items {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30rem;
+}
+
+.upexpro {
+	width: 326rem;
+	height: 137rem;
+}
+
+.oil {
+	width: 234rem;
+	height: 156rem;
+}
+
+.kfu {
+	width: 151rem;
+	height: 134rem;
+}
+
+.pgc {
+	width: 273rem;
+	height: 118rem;
+}
+
+.neural {
+	width: 88rem;
+	height: 115rem;
+}
+
+.carbon {
+	width: 326rem;
+	height: 137rem;
+}

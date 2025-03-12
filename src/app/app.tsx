@@ -4,8 +4,10 @@ import 'virtual:svg-icons-register';
 
 import './styles/styles.scss';
 
+import { Main } from '@pages/main';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<div>App</div>
+		<Main />
 	</React.StrictMode>
 );

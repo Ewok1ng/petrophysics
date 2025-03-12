@@ -1,0 +1,49 @@
+.icon {
+	width: 100rem;
+	height: 100rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.item {
+	display: flex;
+	gap: 20rem;
+	align-items: center;
+
+	width: 646rem;
+	padding: 40rem 20rem 40rem 68rem;
+
+	font-family: $pt-sans-caption-font;
+	font-size: 20rem;
+	font-weight: 400;
+	line-height: 1.2;
+
+	background: $white-color;
+	border-top-right-radius: 30rem;
+	border-bottom-right-radius: 30rem;
+
+	transition: all 0.3s ease-in-out;
+
+	&--middle {
+		gap: 25px;
+		width: 750rem;
+		padding: 50rem 20rem 50rem 68rem;
+		font-size: 25rem;
+
+		.icon {
+			width: 125rem;
+			height: 125rem;
+		}
+	}
+
+	&--large {
+		gap: 30rem;
+		width: 858rem;
+		padding: 60rem 20rem 60rem 68rem;
+		font-size: 30rem;
+
+		.icon {
+			width: 150rem;
+			height: 150rem;
+		}
+	}
+}
