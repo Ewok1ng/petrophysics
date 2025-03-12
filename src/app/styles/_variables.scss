@@ -17,10 +17,10 @@ $accent-color: #00c7d4;
 $accent-gradient: linear-gradient(270deg, #00c7d4 0%, #02e7bd 100%);
 
 // shadows
-$header-shadow: 10rem 10rem 0 0 #000;
-$black-box-shadow: 20rem 20rem 0 0 #000;
-$black-text-shadow: 15rem 15rem 4rem 0 #000;
-$accent-text-shadow: 10rem 10rem 0 0 #00d0cd;
+$header-shadow: 10rem 10rem 0 #000;
+$black-box-shadow: 20rem 20rem 0 #000;
+$black-text-shadow: 15rem 15rem 4rem #000;
+$accent-text-shadow: 10rem 10rem 0 #00d0cd;
 
 // fonts
 $phetsarath-font: 'Phetsarath', serif;

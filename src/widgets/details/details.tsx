@@ -4,7 +4,7 @@ import styles from './details.module.scss';
 
 export const Details = () => {
 	return (
-		<div className={styles.details}>
+		<section className={styles.details}>
 			<div className={styles.content}>
 				<h3 className={styles.title}>Узнать подробности</h3>
 				<div className={styles.info}>
@@ -30,6 +30,6 @@ export const Details = () => {
 					<SvgIcon className={styles.registration__icon} name="plus" />
 				</button>
 			</div>
-		</div>
+		</section>
 	);
 };

@@ -6,7 +6,7 @@ import styles from './rules.module.scss';
 
 export const Rules = () => {
 	return (
-		<div className={styles.rules}>
+		<section className={styles.rules}>
 			<div className={styles.container}>
 				<div className={styles.inner}>
 					<h3 className={styles.title}>Принять участие проще простого...</h3>
@@ -125,6 +125,6 @@ export const Rules = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };

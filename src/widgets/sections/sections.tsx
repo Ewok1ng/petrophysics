@@ -1,7 +1,5 @@
 import clsx from 'clsx';
 
-import { useState } from 'react';
-
 import { Section } from '@entities/section';
 
 import styles from './sections.module.scss';
@@ -47,22 +45,12 @@ const sections: ISection[] = [
 ];
 
 export const Sections = () => {
-	const [activeSection, setActiveSection] = useState<number | null>(null);
-
-	const onMouseEnter = (id: number) => {
-		setActiveSection(id);
-	};
-
-	const onMouseLeave = () => {
-		setActiveSection(null);
-	};
-
 	const getSize = (id: number) => {
-		if (activeSection === id) {
+		if (id === 3) {
 			return 'lg';
 		}
 
-		if (activeSection === id - 1 || activeSection === id + 1) {
+		if (id === 2 || id === 4) {
 			return 'md';
 		}
 
@@ -83,13 +71,7 @@ export const Sections = () => {
 			<div className={styles.wrapper}>
 				<div className={styles.content}>
 					{sections.map(({ id, ...props }) => (
-						<Section
-							size={getSize(id)}
-							onMouseEnter={() => onMouseEnter(id)}
-							onMouseLeave={onMouseLeave}
-							key={id}
-							{...props}
-						/>
+						<Section key={id} size={getSize(id)} {...props} />
 					))}
 				</div>
 			</div>

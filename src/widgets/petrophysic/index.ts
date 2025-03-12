@@ -1,0 +1,1 @@
+export { Petrophysic } from './petrophysic';

@@ -1,0 +1,41 @@
+.experts {
+	position: relative;
+	font-family: $pt-sans-caption-font;
+	background: $black-color;
+
+	&::after {
+		content: '';
+
+		position: absolute;
+		top: -75rem;
+		right: -65rem;
+		transform: rotate(-19deg);
+
+		width: 450rem;
+		height: 450rem;
+
+		background: url('../../shared/assets/images/shape-5.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	&__inner {
+		padding: 35rem 0;
+	}
+
+	&__title {
+		margin-bottom: 33rem;
+
+		font-size: 80rem;
+		font-weight: 700;
+		line-height: 1;
+		color: $white-color;
+	}
+
+	&__content {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 50rem;
+	}
+}

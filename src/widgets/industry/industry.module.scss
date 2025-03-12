@@ -1,0 +1,80 @@
+.industry {
+	background: $black-color;
+
+	&__wrapper {
+		position: relative;
+
+		overflow: hidden;
+
+		background: $white-color;
+		border-bottom-right-radius: 136rem;
+		border-bottom-left-radius: 136rem;
+
+		&::after {
+			content: '';
+
+			position: absolute;
+			top: -90rem;
+			right: 70rem;
+
+			width: 1870rem;
+			height: 1870rem;
+
+			background: url('../../shared/assets/images/shape-4.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+
+	&__inner {
+		position: relative;
+		z-index: 10;
+		padding: 10rem 0 200rem;
+	}
+
+	&__header {
+		position: relative;
+	}
+
+	&__title {
+		margin-bottom: 30rem;
+
+		font-family: $pt-sans-caption-font;
+		font-size: 130rem;
+		font-weight: 700;
+		line-height: 100%;
+		color: $black-color;
+		text-shadow: $accent-text-shadow;
+	}
+
+	&__partners {
+		position: absolute;
+		right: 130rem;
+		bottom: 0;
+
+		display: flex;
+		gap: 40rem;
+	}
+
+	&__info {
+		width: 50%;
+
+		font-family: $pt-sans-caption-font;
+		font-size: 20rem;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+}
+
+.kfu {
+	width: 215rem;
+	height: 70rem;
+	padding-right: 40rem;
+	border-right: 1rem solid $black-color;
+}
+
+.agi {
+	width: 207rem;
+	height: 70rem;
+}
